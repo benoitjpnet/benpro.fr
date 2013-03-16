@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Benpro.fr - <%= @item[:title] %></title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+
+    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>"> 
+  </head>
+  <body>
+    <div id="main">
+      <%= yield %>
+    </div>
+    <div id="sidebar">
+      <h2>My contents</h2>
+      <ul>
+        <li><a href="http://lekernelpanique.fr">Blog – Le kernel panique</a></li>
+        <li><a href="http://benpro.fr/gallery/">Gallery</a></li>
+        <li><a href="http://benpro.fr/medias/">Medias</a></li>
+        <li><a href="http://mo-f.fr">Mini Oppai Fansub</a></li>
+        <li><a href="#">My CV</a></li>
+      </ul>
+      <h2>Tools</h2>
+      <ul>
+        <li><a href="#">Still in dev</a></li>
+      </ul>
+      <h2>Network</h2>
+      <ul>
+        <li><a href="https://twitter.com/benpro82">Twitter</a></li>
+        <li><a href="https://github.com/benpro">Github</a></li>
+        <li><a href="https://gist.github.com/benpro">Gists</a></li>
+        <li><a href="http://myfigurecollection.net/profile/benpro">My Figure Collection</a></li>
+        <li><a href="http://communaute.icotaku.com/membres/benpro/profil.html">Icotaku</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
