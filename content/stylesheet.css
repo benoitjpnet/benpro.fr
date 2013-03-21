@@ -99,3 +99,8 @@ a:hover {
 
   line-height: 20px;
 }
+
+
+code {
+    font-family: monospace,fixed,courrier;
+}
